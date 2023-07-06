@@ -1,0 +1,43 @@
+body
+{
+    margin: 15px;
+    padding: 0;
+    overflow: hidden;
+    background-image: url("C:/Users/User/Documents/23_IMS456_2424b_Group/images.png");
+    background-size: cover;
+    background-position: center;
+}
+#video-background 
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+#video-background video 
+{
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+}
+.box1
+{
+    width: 33%;
+    height: 315px;
+    float: left;
+}
+.container
+{
+    height: 100%;
+    width: 100%;
+    float: left;
+    margin-left:auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+
+  
